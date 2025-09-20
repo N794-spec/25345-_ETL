@@ -1,0 +1,28 @@
+Last login: Sat Sep 20 10:29:31 on ttys000
+(base) naveenkumar@NAVEENKUAMARs-MacBook-Air untitled folder % 
+(base) naveenkumar@NAVEENKUAMARs-MacBook-Air untitled folder % 
+
+
+
+
+SQL CODE SELECT * FROM nonfarm_payrolls order by date DESC LIMIT 5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

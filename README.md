@@ -12,10 +12,13 @@ Load : Once the data is transformed into a clean, useful format, this step loads
 
 
 
+
 2. The Dashboard Code (dashboard_code.py)
 This script's job is to present the data to the end-user. It's a web-based, interactive Business Intelligence dashboard built with Streamlit.
 
 Database Connection : It connects directly to the PostgreSQL database that the ETL script populated. The refactored code uses a connection pool, which is a critical performance optimization that reuses database connections instead of creating new ones for each user, making the app faster and more scalable.
+
+
 
 OLAP Analysis : This is the core of the dashboard. It allows users to perform Online Analytical Processing (OLAP) without writing any code. It lets them:
 
@@ -26,5 +29,8 @@ Dice: Filter on multiple criteria (e.g., view growth trends for Q4 only).
 Roll-Up: Aggregate data to a higher level (e.g., view annual growth instead of monthly).
 
 Drill-Down: Investigate high-level numbers in more detail (e.g., explore the specific months that contributed to a record-breaking year).
+
+
+
 
 Interactive Visualization : Using the Plotly library, the script turns the data and analysis into interactive charts and graphs. Users can hover over data points, zoom in on time periods, and select different views, allowing them to explore the data and discover insights on their own.
